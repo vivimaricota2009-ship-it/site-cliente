@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site</title>
+  <style>
+    /* Reset de margens e preenchimentos */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilos gerais */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Cabeçalho */
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+    }
+
+    header .logo h1 {
+      text-align: center;
+      font-size: 2.5em;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+
+    /* Seções */
+    section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    section#home {
+      background-color: #e3e3e3;
+    }
+
+    section#sobre {
+      background-color: #d1d1d1;
+    }
+
+    section#contato {
+      background-color: #c1c1c1;
+    }
+
+    /* Rodapé */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    oi
+  <header>
+    <div class="logo">
+      <h1>Meu Site</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Bem-vindo ao meu site!</h2>
+    <p>Este é um exemplo simples de como criar um site com HTML e CSS.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou um desenvolvedor web em formação, apaixonado por criar soluções eficientes e criativas.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Você pode me contatar através do email: exemplo@dominio.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
